@@ -11,7 +11,7 @@ $versionNuget = 1.0
 # Nombre del archivo a generar 
 $rutaNuspec = Convert-Path .
 
-$rutaNuspec += '/FeatureFlags.nuspec'
+$rutaNuspec += '/Garciss.FeatureFlags.nuspec'
 
 # Ruta raiz donde localizar los archivos .csproj
 $rutaCSProj = '../../src/src/'
@@ -23,7 +23,7 @@ $rutaDLL = "../PackagesCompilaciones/"
 # ___________________________________________________________
 
 ## Datos del paquete Nuget
-$id = "FeatureFlags"
+$id = "Garciss.FeatureFlags"
 $title = "Feature Flags"
 $authors = "Asier Garcia"
 $owners = "Asier Garcia"
