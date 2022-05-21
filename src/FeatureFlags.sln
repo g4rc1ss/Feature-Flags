@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31808.319
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3ADEC19D-8737-4C98-9294-C0DBE73938F8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{56C7271C-B6A6-482F-A397-1BB556695DC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garciss.FeatureFlags", "src\Garciss.FeatureFlags\Garciss.FeatureFlags.csproj", "{404A5D7A-5302-41A0-B192-60593945D377}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9910F84-F791-4753-8A02-193B05CB3472}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{404A5D7A-5302-41A0-B192-60593945D377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{404A5D7A-5302-41A0-B192-60593945D377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{404A5D7A-5302-41A0-B192-60593945D377}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{404A5D7A-5302-41A0-B192-60593945D377}.Debug|x64.Build.0 = Debug|Any CPU
+		{404A5D7A-5302-41A0-B192-60593945D377}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{404A5D7A-5302-41A0-B192-60593945D377}.Debug|x86.Build.0 = Debug|Any CPU
+		{404A5D7A-5302-41A0-B192-60593945D377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{404A5D7A-5302-41A0-B192-60593945D377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{404A5D7A-5302-41A0-B192-60593945D377}.Release|x64.ActiveCfg = Release|Any CPU
+		{404A5D7A-5302-41A0-B192-60593945D377}.Release|x64.Build.0 = Release|Any CPU
+		{404A5D7A-5302-41A0-B192-60593945D377}.Release|x86.ActiveCfg = Release|Any CPU
+		{404A5D7A-5302-41A0-B192-60593945D377}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{404A5D7A-5302-41A0-B192-60593945D377} = {56C7271C-B6A6-482F-A397-1BB556695DC0}
+	EndGlobalSection
+EndGlobal
